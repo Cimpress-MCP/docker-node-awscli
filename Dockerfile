@@ -1,5 +1,5 @@
 FROM node:8.4.0
-LABEL maintainer="lynxsquad@cimpress.com" nodeVersion="8.4.0"
+LABEL maintainer="lynxsquad@cimpress.com" nodeVersion="8.4.0" version="1.0.0"
 
 # apt-get must be updated first
 RUN apt-get update
