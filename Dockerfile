@@ -17,4 +17,7 @@ RUN pip install awscli
 # Elastic Beanstalk has its own CLI
 RUN pip install awsebcli
 
+ADD ./ssh root/.ssh
+RUN chmod 700 root/.ssh/gitlab_rsa
+
 CMD ["/bin/bash"]

@@ -1,0 +1,5 @@
+# Gitlab
+Host cimpress.githost.io
+        Hostname cimpress.githost.io
+        User git
+        IdentityFile ~/.ssh/gitlab_rsa
