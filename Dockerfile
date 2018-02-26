@@ -20,4 +20,6 @@ RUN pip install awsebcli
 ADD ./ssh root/.ssh
 RUN chmod 700 root/.ssh/gitlab_rsa
 
+RUN npm i -g yarn@v1.3.2
+
 CMD ["/bin/bash"]
